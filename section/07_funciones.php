@@ -19,7 +19,8 @@ echo multiplicar(5) . "<br>";
 echo multiplicar(5,3);
 ?>';
 
-$resultado = '10\n15';
+$resultado = "10\n15";
+
 $contenido_funciones .= mostrar_ejemplo($codigo, $resultado, 'Parámetros con valores por defecto.');
 
 mostrar_seccion(

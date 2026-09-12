@@ -12,7 +12,7 @@ echo $a % $b . "<br>";  //Módulo
 echo $a ** $b . "<br>"; //Expotenciación (PHP 5.6+)
 ?>';
 
-$resultado = '13\n7\n\30\n3.3333333333\n1\n1000';
+$resultado = "13\n7\n30\n3.3333333333\n1\n1000";
 
 $contenido_operadores .= mostrar_ejemplo($codigo, $resultado, 'Operadores aritméticos.');
 

@@ -51,7 +51,7 @@ sort($numeros);
 print_r($numeros);
 ?>';
 
-$resultado = "Array\n(\n    [0] => 1\n    [1] => 2\n    [2] => 3\n";
+$resultado = "Array\n(\n    [0] => 1\n    [1] => 2\n    [2] => 3\n)";
 
 $contenido_arrays .= mostrar_ejemplo($codigo, $resultado, 'Función sort() para ordenar arrays.');
 
